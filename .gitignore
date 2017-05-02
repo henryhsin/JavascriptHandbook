@@ -1,0 +1,13 @@
+#npm除錯紀錄檔
+npm-debug.log*
+
+#專業依賴關係
+node_modules
+
+＃OSX資料夾屬性
+.DS_Store
+
+#暫時性檔案
+*.tmp
+*~
+

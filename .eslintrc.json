@@ -10,20 +10,22 @@
     },
     "rules": {
         "indent": [
-            "error",
+            0,
             "tab"
         ],
         "linebreak-style": [
-            "error",
+            1,
             "unix"
         ],
         "quotes": [
-            "error",
+            1,
             "double"
         ],
         "semi": [
-            "error",
+            1,
             "always"
-        ]
+        ],
+        "no-console": 0
+
     }
 }

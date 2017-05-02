@@ -1,12 +1,12 @@
-'use strict';
+"use strict";
 
-var sentences = [{ subject: 'JavaScript', verb: 'is', object: 'great' }, { subject: 'Elephant', verb: 'are', object: 'large' }];
+var sentences = [{ subject: "JavaScript", verb: "is", object: "great" }, { subject: "Elephant", verb: "are", object: "large" }];
 function say(_ref) {
   var subject = _ref.subject,
       verb = _ref.verb,
       object = _ref.object;
 
-  console.log(subject + ' ' + verb + ' ' + object);
+  console.log(subject + " " + verb + " " + object);
 }
 
 var _iteratorNormalCompletion = true;

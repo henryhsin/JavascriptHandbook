@@ -1,12 +1,12 @@
-'use strict';
+"use strict";
 
-var sentences = [{ subject: 'JavaScript', verb: 'is', object: 'great' }, { subject: 'Elephant', verb: 'are', object: 'large' }];
+var sentences = [{ subject: "JavaScript", verb: "is", object: "great" }, { subject: "Elephant", verb: "are", object: "large" }];
 function say(_ref) {
   var subject = _ref.subject,
       verb = _ref.verb,
       object = _ref.object;
 
-  console.log(subject + ' ' + verb + ' ' + object);
+  console.log(subject + " " + verb + " " + object);
 }
 
 var _iteratorNormalCompletion = true;
@@ -33,3 +33,30 @@ try {
     }
   }
 }
+
+var currentTemp = 23.5;
+var message = "It is a good temperature: " + currentTemp + "\xB0c";
+console.log(message);
+
+var isCool = true;
+console.log(isCool);
+
+var RED = Symbol();
+var ORANGE = Symbol("The color of a sunset!!");
+console.log(RED === ORANGE);
+
+var user = {
+  name: "Henry",
+  age: "26"
+};
+console.log(user);
+
+var person = {
+  name: "Annie",
+  classification: {
+    country: "Taiwan",
+    isBeauty: true
+  }
+};
+
+console.log(person.classification.isBeauty);
